@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLCanciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="CancionXSD.xsd">
+    <Cancion Año=" 1975" Duracion="5:59">
+        <Titulo>Bohemian Rhapsody</Titulo>
+        <Compositores>
+            <Nombre>Freddie</Nombre>
+            <Apellido>Mercury</Apellido>
+        </Compositores>
+        <Productores>
+            <Nombre>Roy</Nombre>
+            <Apellido>Thomas</Apellido>
+        </Productores>
+        <Sello>EMI Records</Sello>
+        <Artista>Queen</Artista>
+    </Cancion>
+    <Cancion Año="1970" Duracion="3:49">
+        <Titulo>Your Song</Titulo>
+        <Compositores>
+            <Nombre>Elton</Nombre>
+            <Apellido>John</Apellido>
+        </Compositores>
+        <Productores>
+            <Nombre>Gus</Nombre>
+            <Apellido>Dudgeon</Apellido>
+        </Productores>
+        <Sello>UNI DJM</Sello>
+        <Artista>Elton John</Artista>
+    </Cancion>
+    <Cancion Año="1971" Duracion="8:05">
+        <Titulo>Stairway to Heaven</Titulo>
+        <Compositores>
+            <Nombre>Robert</Nombre>
+            <Apellido>Plant</Apellido>
+        </Compositores>
+        <Productores>
+            <Nombre>Jimmy</Nombre>
+            <Apellido>Page</Apellido>
+        </Productores>
+        <Sello>Atlantic Records</Sello>
+        <Artista>Led Zeppelin</Artista>
+    </Cancion>
+</XMLCanciones>

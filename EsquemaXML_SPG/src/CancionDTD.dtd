@@ -1,0 +1,11 @@
+        <!ELEMENT Cancion (Titulo|Compositores|Productores|Sello|Artista)*>
+        <!ATTLIST Cancion Duracion CDATA #REQUIRED>
+        <!ATTLIST Cancion Año CDATA #REQUIRED>
+        <!ELEMENT Titulo (#PCDATA)>
+        <!ELEMENT Compositores (Nombre|Apellido)*>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT Apellido (#PCDATA)>
+        <!ELEMENT Productores (Nombre|Apellido)*>
+        <!ELEMENT Sello (#PCDATA)>
+        <!ELEMENT Artista (#PCDATA)>
+                <!ELEMENT XMLCanciones (Cancion)*>
